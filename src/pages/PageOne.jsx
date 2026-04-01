@@ -7,7 +7,7 @@ const Section = ({ title, children }) => (
   </div>
 );
 
-const page1 = () => {
+const PageOne = () => {
   return (
     <div style={{ padding: "40px", maxWidth: "900px", margin: "auto" }}>
       
@@ -86,4 +86,4 @@ const page1 = () => {
   );
 };
 
-export default page1;
+export default PageOne;
