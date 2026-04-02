@@ -7,6 +7,7 @@ import PageOne from './pages/PageOne';
 import PageTwo from './pages/PageTwo';
 import PageThree from './pages/PageThree';
 import PageFour from './pages/PageFour';
+import PageFive from './pages/PageFive';
 import Footer from './components/Footer';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/page2" element={<PageTwo />} />
           <Route path="/page3" element={<PageThree />} />
           <Route path="/page4" element={<PageFour />} />
+          <Route path="/page5" element={<PageFive />} />
         </Routes>
       </div>
 

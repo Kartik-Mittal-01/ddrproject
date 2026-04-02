@@ -34,6 +34,10 @@ function NavScrollExample() {
               Politics
             </Nav.Link>
 
+            <Nav.Link href="/page5" style={{ color: "#fff" }}>
+              Advancements
+            </Nav.Link>
+
             <NavDropdown title="Link" id="navbarScrollingDropdown" menuVariant="dark">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
