@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: "#8B0000" }} variant="dark">
+    <Navbar expand="lg" style={{ backgroundColor: "#8B0000" }} variant="dark" sticky="top">
       <Container fluid>
         <Navbar.Brand href="/" style={{ color: "#fff", fontWeight: "bold" }}>
           Plastic Management
@@ -19,11 +19,19 @@ function NavScrollExample() {
           <Nav className="me-auto my-2 my-lg-0" navbarScroll>
 
             <Nav.Link href="/page1" style={{ color: "#fff" }}>
-              Hardik
+              Understanding Plastics
             </Nav.Link>
 
-            <Nav.Link href="#action2" style={{ color: "#fff" }}>
-              Kavya
+            <Nav.Link href="/page2" style={{ color: "#fff" }}>
+              Introduction 
+            </Nav.Link>
+
+            <Nav.Link href="/page3" style={{ color: "#fff" }}>
+              Management Rules 
+            </Nav.Link>
+
+            <Nav.Link href="/page4" style={{ color: "#fff" }}>
+              Politics
             </Nav.Link>
 
             <NavDropdown title="Link" id="navbarScrollingDropdown" menuVariant="dark">

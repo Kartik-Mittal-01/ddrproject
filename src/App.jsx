@@ -4,6 +4,9 @@ import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar'
 import PageOne from './pages/PageOne';
+import PageTwo from './pages/PageTwo';
+import PageThree from './pages/PageThree';
+import PageFour from './pages/PageFour';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/page1" element={<PageOne />} />
+          <Route path="/page2" element={<PageTwo />} />
+          <Route path="/page3" element={<PageThree />} />
+          <Route path="/page4" element={<PageFour />} />
         </Routes>
       </div>
 
