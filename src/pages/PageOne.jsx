@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageSection from '../components/ImageSection'
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -19,7 +21,7 @@ const PageOne = () => {
         Understanding Plastics & Plastic Waste
       </h1>
 
-      <Section title="What is Plastic?">
+      <Section id="p1i1" title="What is Plastic?">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic is a synthetic or semi-synthetic organic material composed of high molecular mass compounds. Its unique ability to be molded into a wide range of shapes and sizes makes it one of the most versatile materials used in modern life. From the moment we wake up, plastic surrounds us—whether it is a toothbrush, toothpaste tube, water tap, or even plumbing systems within buildings. 
         </p>
@@ -30,7 +32,7 @@ const PageOne = () => {
       </Section>
 
 
-      <Section title="Key Characteristics">
+      <Section id="p1i2" title="Key Characteristic">
         <p>
             Plastics have become so popular because of their unique properties:
         </p>
@@ -45,7 +47,7 @@ const PageOne = () => {
 
       </Section>
 
-      <Section title="Why Understanding Plastic Matters">
+      <Section id="p1i3" title="Why Understanding Plastic Matters">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic has revolutionized modern life by offering convenience, affordability, and versatility. However, improper disposal and poor waste management have led to serious environmental challenges. Understanding what plastic is made of and how it is produced is the first step toward developing effective solutions for plastic waste management. 
         </p>
@@ -55,7 +57,7 @@ const PageOne = () => {
         </p>
       </Section>
 
-      <Section title="History of Plastic">
+      <Section id="p1i4" title="History of Plastic">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The journey of plastic began in 1862, when Alexander Parkes introduced a material called Parkesine at an international exhibition in London. This was a semi-synthetic plastic derived from cellulose nitrate, which could be heated, molded, and retained its shape upon cooling. It marked the beginning of a new era in material science. 
         </p>
@@ -69,7 +71,7 @@ const PageOne = () => {
         </p>
       </Section>
 
-      <Section title="How Plastic is Made">
+      <Section id="p1i5" title="How Plastic is Made">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic production is based on a process called polymerization, where small molecules known as monomers combine under heat, pressure, and catalysts to form long chains called polymers. For example, ethylene molecules are transformed into polyethylene, one of the most common plastics used worldwide. 
         </p>
@@ -79,7 +81,7 @@ const PageOne = () => {
         <ImageSection src= 'hardikimages/image 4.png' />
       </Section>
 
-      <Section title="Key Additives in Plastic">
+      <Section id="p1i6" title="Key Additives in Plastic">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastics are rarely pure polymers i.e, they contain several additives that define their performance and usability:
         </p>       
@@ -96,7 +98,7 @@ const PageOne = () => {
         </p>
       </Section>
 
-      <Section title="Major Plastic Manufacturing Processes">
+      <Section id="p1i7" title="Major Plastic Manufacturing Processes">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic products are created using several manufacturing techniques. Each method produces materials with different shapes, strengths, and applications.
         </p>
@@ -217,7 +219,7 @@ const PageOne = () => {
 
       </Section>
 
-      <Section title="Classification of Plastics">
+      <Section id="p1i8" title="Classification of Plastics">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             In this section, we deepen our understanding of plastics by exploring their classification based on behavior, structure, properties, and resin types. This knowledge is essential because different plastics behave differently during recycling, reuse, and disposal, making classification a key step in effective plastic waste management. 
         </p>
@@ -286,7 +288,7 @@ const PageOne = () => {
 
 
 
-      <Section title="Uses of Plastics">
+      <Section id="p1i9" title="Uses of Plastics">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             After understanding what plastics are and how they are classified, the next step is to explore where plastics are used and why they are so dominant globally. Plastics are not limited to one sector—they are deeply integrated into almost every industry and aspect of daily life. 
         </p>
@@ -353,7 +355,7 @@ const PageOne = () => {
 
       </Section>
 
-      <Section title="Per Capita Plastic Waste Generation">
+      <Section  id= "p1i10" title="Per Capita Plastic Waste Generation">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             When plastic waste is measured per person:
         </p>
@@ -366,7 +368,7 @@ const PageOne = () => {
         </p>
       </Section>
 
-      <Section title="Plastic Waste Generation vs Pollution">
+      <Section id= "p1i11" title="Plastic Waste Generation vs Pollution">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             An important distinction must be made between:
         </p>
@@ -382,7 +384,7 @@ const PageOne = () => {
         </p>
       </Section>
 
-      <Section title="Plastic Waste Consumption vs Pollution">
+      <Section id= "p1i12" title="Plastic Waste Consumption vs Pollution">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             One important observation is that high plastic consumption does not always mean higher pollution. Developed countries often have better waste management systems, ensuring proper collection, recycling, and disposal.
         </p>
@@ -393,7 +395,7 @@ const PageOne = () => {
 
       </Section>
 
-      <Section title="Environmental Insight">
+      <Section id= "p1i13" title="Environmental Insight">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic pollution is not just about waste—it directly impacts ecosystems and human health. When plastics break down into microplastics, they enter the food chain through water, fish, and even everyday items like salt. This makes proper plastic management more critical than ever.
         </p>
@@ -402,7 +404,7 @@ const PageOne = () => {
         </p>
       </Section>
 
-      <Section title="Plastic vs Plastic Waste">
+      <Section id= "p1i14" title="Plastic vs Plastic Waste">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic itself is not inherently harmful—it has improved efficiency, reduced costs, and enhanced quality of life across industries. The real issue lies in the mismanagement of plastic waste, especially single-use plastics. 
         </p>
@@ -418,8 +420,7 @@ const PageOne = () => {
       </Section>
 
 
-
-      <Section title="Why Plastic Pollution is Rising">
+      <Section id= "p1i15" title="Why Plastic Pollution is Rising">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic pollution is increasing due to several factors:
         </p>

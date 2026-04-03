@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageSection from '../components/ImageSection'
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -19,7 +21,7 @@ const PageTwo = () => {
         Introduction to Plastic Waste
       </h1>
 
-      <Section title="The Plastic Crisis: From Material Utility to Global Environmental Threat">
+      <Section  id= "p2i1" title="The Plastic Crisis: From Material Utility to Global Environmental Threat">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic, once hailed as a revolutionary material for its durability, versatility, and low cost, has transitioned into one of the most significant environmental challenges of the modern era. Plastic waste is not a standalone category of pollution but a dominant and persistent component of the broader global solid waste stream. Unlike organic materials, paper, or even some metals, plastic does not decompose in any meaningful human timeframe. Instead, it undergoes a process of fragmentation, breaking into smaller and smaller pieces that permeate every corner of our planet—from the deepest ocean trenches to the very air we breathe.
         </p>
@@ -28,7 +30,7 @@ const PageTwo = () => {
        
       </Section>
 
-      <Section title="The Genesis of Plastic Waste: Consumption and Packaging">
+      <Section id= "p2i2" title="The Genesis of Plastic Waste: Consumption and Packaging">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The primary driver of the plastic waste crisis is the linear "take-make-dispose" model of consumption. While plastic is utilized in building and construction (6%), automotive manufacturing (5%), and electronics, these sectors typically involve long-term use. The overwhelming majority of plastic waste—approximately 63%—originates from the packaging sector. Packaging is particularly problematic because it has an incredibly short lifecycle; a plastic wrapper or container often becomes waste within minutes of being opened.
         </p>
@@ -42,7 +44,7 @@ const PageTwo = () => {
 
       </Section>
 
-      <Section title="The Anatomy of Mismanagement: Segregation and Contamination">
+      <Section id= "p2i3" title="The Anatomy of Mismanagement: Segregation and Contamination">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             One of the most significant hurdles in addressing this issue is the lack of proper waste segregation. When plastic is thrown into a general bin along with food scraps and organic matter, it becomes contaminated. This mixing reduces the quality of the plastic and makes the recycling process significantly more difficult and expensive.
         </p>
@@ -54,7 +56,7 @@ const PageTwo = () => {
         <ImageSection src= 'hardikimages/image 8.png' />
       </Section>
 
-      <Section title="Pathways of Pollution: Land Litter and Urban Systems">
+      <Section id= "p2i4" title="Pathways of Pollution: Land Litter and Urban Systems">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             When plastic waste is improperly discarded, it becomes "land litter." This is the most visible form of pollution, seen along roadsides, railway tracks, and public spaces. The impact of land litter is twofold. First, it poses a direct threat to terrestrial wildlife. Animals such as cows, dogs, and goats often consume plastic when it is mixed with discarded food waste. Since plastic is indigestible, it accumulates in their stomachs, leading to malnutrition, intestinal blockage, and eventually a painful death.
         </p>
@@ -66,7 +68,7 @@ const PageTwo = () => {
        
       </Section>
 
-      <Section title="The Invisible Enemy: Microplastics and Industrial Leakages">
+      <Section id= "p2i5" title="The Invisible Enemy: Microplastics and Industrial Leakages">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Not all plastic pollution starts as a visible bottle or bag. Primary microplastics, such as microbeads, are intentionally manufactured for use in facial scrubs, cleansers, and cosmetics. Because these particles are microscopic, they are too small to be captured by standard wastewater treatment plant filters. Consequently, they flow directly into rivers and eventually the ocean. 
         </p>
@@ -81,7 +83,7 @@ const PageTwo = () => {
         <ImageSection src= 'hardikimages/image 9.png' />
       </Section>
 
-      <Section title="Rivers as Global Transport Highways">
+      <Section id= "p2i6" title="Rivers as Global Transport Highways">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Rivers serve as the primary arteries transporting plastic waste from inland areas to the marine environment. Research indicates that a small number of major river systems are responsible for a vast majority of the plastic entering the oceans. Rivers like the Yangtze (China), the Ganges (India and Bangladesh), and the Niger (Africa) act as high-speed conveyors for mismanaged waste.
         </p>       
@@ -94,7 +96,7 @@ const PageTwo = () => {
 
      
 
-      <Section title="Marine Accumulation and the Great Pacific Garbage Patch">
+      <Section id= "p2i7" title="Marine Accumulation and the Great Pacific Garbage Patch">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Once plastic reaches the ocean, its fate is determined by its density. Some plastics float on the surface, while others sink to the seabed. Over time, surface plastics are caught in circular ocean currents known as gyres. The most famous result of this process is the Great Pacific Garbage Patch, a massive accumulation of floating debris consisting of fishing nets, bottles, and a "soup" of microplastics.
         </p>
@@ -105,7 +107,7 @@ const PageTwo = () => {
         <ImageSection src= 'hardikimages/image 16.png' />
       </Section>
 
-      <Section title="Conclusion: Breaking the Link Between Growth and Waste">
+      <Section id= "p2i8" title="Conclusion: Breaking the Link Between Growth and Waste">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             There is an undeniable correlation between economic growth (GDP) and plastic waste generation. As nations develop, consumption rises, and the use of packaged goods increases. However, the environmental impact of this growth is not inevitable. The distinction lies in the quality of waste management infrastructure.
         </p>

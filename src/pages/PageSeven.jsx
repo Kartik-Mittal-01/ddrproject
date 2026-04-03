@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageBar from "../components/ImageBar";
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -25,7 +27,7 @@ const PageSeven = () => {
         This approach not only reduces environmental damage but also improves resource efficiency, making plastics a key enabler of sustainable development.
       </p>
 
-      <Section title="Role of Plastics in Circular Economy">
+      <Section id= "p7i1" title="Role of Plastics in Circular Economy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastics play a crucial role in enabling circularity due to their unique properties:
         </p>
@@ -41,7 +43,7 @@ const PageSeven = () => {
        
       </Section>
 
-      <Section title=" Key Strategies for Circular Plastics">
+      <Section id= "p7i2" title=" Key Strategies for Circular Plastics">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             To achieve circularity in plastics, several strategies are essential:
         </p>
@@ -83,7 +85,7 @@ const PageSeven = () => {
       
       </Section>
 
-      <Section title="Objectives of Circular Economy for Plastics">
+      <Section id= "p7i3" title="Objectives of Circular Economy for Plastics">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The core objectives of a circular plastic economy include:
         </p>
@@ -102,7 +104,7 @@ const PageSeven = () => {
         <ImageBar images={["week 888/page 4/img 8.png"]} />
       </Section>
 
-      <Section title="From Reactive to Proactive Systems">
+      <Section id= "p7i4" title="From Reactive to Proactive Systems">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Traditional waste management focuses on reactive solutions—cleaning up waste after it is generated.
         </p>
@@ -117,7 +119,7 @@ const PageSeven = () => {
        
       </Section>
 
-      <Section title="Why Circular Economy Matters">
+      <Section id= "p7i5" title="Why Circular Economy Matters">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The importance of circular economy is driven by several global challenges:
         </p>
@@ -134,7 +136,7 @@ const PageSeven = () => {
         <ImageBar images={["week 888/page 6/img 12.png", "week 888/page 6/img 13.png", "week 888/page 6/img 14.png"]} />
       </Section>
 
-      <Section title="Industry Example: Sustainable Innovation">
+      <Section id= "p7i6" title="Industry Example: Sustainable Innovation">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Many global companies are already adopting circular strategies. These include:
         </p>       
@@ -154,7 +156,7 @@ const PageSeven = () => {
 
      
 
-      <Section title="The Way Forward">
+      <Section id= "p7i7" title="The Way Forward">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The future of plastic management lies in innovation, collaboration, and systemic change. Engineers, businesses, policymakers, and consumers must work together to:
         </p>
@@ -171,7 +173,7 @@ const PageSeven = () => {
         <ImageBar images={["week 888/page 8/img 19.png", "week 888/page 8/img 20.png", "week 888/page 8/img 21.png"]} />
       </Section>
 
-      <Section title="Sustainable Packaging Strategies">
+      <Section id= "p7i8" title="Sustainable Packaging Strategies">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             To reduce environmental impact, companies are adopting multiple packaging strategies:
         </p>
@@ -190,7 +192,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title="Innovation in Product Design">
+      <Section id= "p7i9" title="Innovation in Product Design">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Product innovation plays a key role in circular systems. Companies are exploring:
         </p>
@@ -209,7 +211,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title="Recapturing Packaging & Recycling">
+      <Section id= "p7i10" title="Recapturing Packaging & Recycling">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A critical step in circular economy is recapturing used packaging:
         </p>
@@ -231,7 +233,7 @@ const PageSeven = () => {
         <ImageBar images={["week 888/page 11/img 29.png", "week 888/page 11/img 30.png", "week 888/page 11/img 31.png"]} />
       </Section>
 
-      <Section title=" Industry Collaboration & Global Initiatives">
+      <Section id= "p7i11" title=" Industry Collaboration & Global Initiatives">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Circular economy cannot succeed in isolation. It requires collaboration across industries and stakeholders:
         </p>
@@ -251,7 +253,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Role of Government & Infrastructure">
+      <Section id= "p7i12" title=" Role of Government & Infrastructure">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Governments play a vital role by:
         </p>
@@ -271,7 +273,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Extended Producer Responsibility (EPR)">
+      <Section id= "p7i13" title=" Extended Producer Responsibility (EPR)">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Extended Producer Responsibility (EPR) is a key policy tool in circular economy.
         </p>
@@ -289,7 +291,7 @@ const PageSeven = () => {
         
       </Section>
 
-      <Section title=" Global Impact of Plastic Circular Economy">
+      <Section id= "p7i14" title=" Global Impact of Plastic Circular Economy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
           Effective plastic waste management through circular economy practices has a significant environmental impact. If plastic waste is properly recycled and utilized for energy recovery, it can reduce millions of tons of greenhouse gas emissions globally.
         </p>
@@ -301,7 +303,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Climate Change & Plastic Waste">
+      <Section id= "p7i15" title=" Climate Change & Plastic Waste">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic waste is closely linked to environmental challenges such as:
         </p>
@@ -320,7 +322,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Benefits of Improved Plastic Management">
+      <Section id= "p7i16" title=" Benefits of Improved Plastic Management">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A well-designed circular plastic system offers multiple benefits:
         </p>
@@ -341,7 +343,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" European Circular Economy Vision">
+      <Section id= "p7i17" title=" European Circular Economy Vision">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The European Union has set ambitious goals for plastic circularity
         </p>
@@ -361,7 +363,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Example: UK Plastic Pact">
+      <Section id= "p7i18" title=" Example: UK Plastic Pact">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The UK Plastic Pact outlines key targets:
         </p>
@@ -381,7 +383,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Case Study: Waste-Free Ontario">
+      <Section id= "p7i19" title=" Case Study: Waste-Free Ontario">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Ontario, Canada, has implemented a long-term strategy for a waste-free economy:
         </p>
@@ -407,7 +409,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Data-Driven Waste Management">
+      <Section id= "p7i20" title=" Data-Driven Waste Management">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Effective waste management requires accurate data and analysis. By tracking how plastic moves through the system—collection, sorting, recycling, and disposal—we can:
         </p>
@@ -425,7 +427,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title=" Key System Improvements Needed">
+      <Section id= "p7i21" title=" Key System Improvements Needed">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             To achieve a circular plastic economy, several improvements are necessary:
         </p>
@@ -444,7 +446,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title="Local Action, Global Impact">
+      <Section id= "p7i22" title="Local Action, Global Impact">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Although plastic pollution is a global issue, solutions must be implemented locally. Each region must design systems based on:
         </p>
@@ -461,7 +463,7 @@ const PageSeven = () => {
       </Section>
 
 
-      <Section title="Collaboration & Innovation">
+      <Section id= "p7i23" title="Collaboration & Innovation">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The success of circular economy depends on:
         </p>

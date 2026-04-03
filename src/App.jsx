@@ -14,6 +14,7 @@ import PageSeven from './pages/PageSeven';
 import Footer from './components/Footer';
 import OffCanvas from './components/OffCanvas'
 import ScrollToTop from './components/ScrollToTop';
+import ScrollToHash from './components/ScrollToHash';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       
       <Navbar />
       <ScrollToTop /> 
+      <ScrollToHash/>
       <OffCanvas/>
       <div style={{ flex: 1, paddingBottom: "60px" }}>
         <Routes>

@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageBar from "../components/ImageBar";
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -19,7 +21,7 @@ const PageSix = () => {
         Plastic Resource Recovery & Circular Economy
       </h1>
 
-      <Section title="Lifecycle of Plastic Products">
+      <Section id= "p6i1" title="Lifecycle of Plastic Products">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
            Plastic waste management is evolving rapidly, with increasing focus on resource recovery and the circular economy. These concepts aim to transform how we view plastic—not as waste, but as a valuable resource that can be reused, recycled, and reintegrated into production systems.
         </p>
@@ -37,7 +39,7 @@ const PageSix = () => {
        
       </Section>
 
-      <Section title="Waste Management Hierarchy">
+      <Section id= "p6i2" title="Waste Management Hierarchy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Effective plastic waste management follows a structured hierarchy:
         </p>
@@ -56,7 +58,7 @@ const PageSix = () => {
 
       </Section>
 
-      <Section title=" Plastic Recycling Value Chain">
+      <Section id= "p6i3" title=" Plastic Recycling Value Chain">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The plastic recycling value chain starts with waste generation by consumers and industries. This is followed by collection, sorting, and processing of plastic waste. Recyclable materials are then transformed into new products, replacing virgin plastic in manufacturing.
         </p>
@@ -68,7 +70,7 @@ const PageSix = () => {
         <ImageBar images={["page 3/img 8.png", "page 3/img 9.png", "page 3/img 10.png"]} />
       </Section>
 
-      <Section title="Upstream vs Downstream Processes">
+      <Section id= "p6i4" title="Upstream vs Downstream Processes">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             In the lifecycle of plastics, activities are broadly categorized into upstream and downstream processes.
         </p>
@@ -86,7 +88,7 @@ const PageSix = () => {
        
       </Section>
 
-      <Section title="Sustainability & Lifecycle Thinking">
+      <Section id= "p6i5" title="Sustainability & Lifecycle Thinking">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Sustainability in plastic management is built on three key pillars:
         </p>
@@ -102,7 +104,7 @@ const PageSix = () => {
         <ImageBar images={["page 5/img 14.png", "page 5/img 15.png", "page 5/img 16.png"]} />
       </Section>
 
-      <Section title="Strategies for Plastic Resource Recovery">
+      <Section id= "p6i6" title="Strategies for Plastic Resource Recovery">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             <b>Economic Strategies</b> <br />
             Efficient recycling systems require low energy consumption, strong market demand for recycled materials, and competitive pricing compared to virgin plastics. Policies and incentives can help encourage adoption.
@@ -130,7 +132,7 @@ const PageSix = () => {
       </Section>
      
 
-      <Section title="Circular Economy & Plastic Resource Recovery (Advanced Concepts)">
+      <Section id= "p6i7" title="Circular Economy & Plastic Resource Recovery (Advanced Concepts)">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Building on the fundamentals of plastic resource recovery, it is essential to understand how modern systems are shifting from linear consumption to a circular economy model. This transformation focuses on maximizing resource efficiency, minimizing waste, and extending the lifecycle of materials.
         </p>
@@ -142,7 +144,7 @@ const PageSix = () => {
         <ImageBar images={["page 8/img 20.png", "page 8/img 21.png"]} />
       </Section>
 
-      <Section title="Key Technical Metrics in Resource Recovery">
+      <Section id= "p6i8" title="Key Technical Metrics in Resource Recovery">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             To evaluate the effectiveness of plastic resource recovery, several technical metrics are used:
         </p>
@@ -172,7 +174,7 @@ const PageSix = () => {
       </Section>
       
 
-      <Section title="From Linear to Circular Economy">
+      <Section id= "p6i9" title="From Linear to Circular Economy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The linear economy follows a simple model: Take → Make → Use → Dispose
         </p>
@@ -190,7 +192,7 @@ const PageSix = () => {
       </Section>
 
 
-      <Section title=" How Circular Economy Works">
+      <Section id= "p6i10" title=" How Circular Economy Works">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A circular system operates through continuous loops:
         </p>
@@ -209,7 +211,7 @@ const PageSix = () => {
       </Section>
 
 
-      <Section title="  Innovative Circular Business Models">
+      <Section id= "p6i11" title="  Innovative Circular Business Models">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             One of the most transformative aspects of the circular economy is the shift from product ownership to service-based models.
         </p>
@@ -225,7 +227,7 @@ const PageSix = () => {
        
       </Section>
 
-      <Section title=" Plastic Recycling in Circular Economy">
+      <Section id= "p6i12" title=" Plastic Recycling in Circular Economy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic recycling plays a central role in achieving circularity. The process typically includes:
         </p>
@@ -246,7 +248,7 @@ const PageSix = () => {
       </Section>
 
 
-      <Section title=" Principles of Circular Economy">
+      <Section id= "p6i13" title=" Principles of Circular Economy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The circular economy is based on three core principles:
         </p>
@@ -263,7 +265,7 @@ const PageSix = () => {
        
       </Section>
 
-      <Section title=" Current Challenges in Plastic Circularity">
+      <Section id= "p6i14" title=" Current Challenges in Plastic Circularity">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Despite progress, significant challenges remain:
         </p>
@@ -279,7 +281,7 @@ const PageSix = () => {
        
       </Section>
 
-      <Section title=" The Future of Plastic Economy">
+      <Section id= "p6i15" title=" The Future of Plastic Economy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The transition to a circular economy represents a major economic and environmental opportunity. It can lead to:
         </p>

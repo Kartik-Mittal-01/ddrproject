@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageBar from "../components/ImageBar";
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -19,7 +21,7 @@ const PageFive = () => {
         Recent Advancements In Plastic Waste Management
       </h1>
 
-      <Section title="The Evolution of Intelligent Sorting and System Logistics">
+      <Section id= "p5i1" title="The Evolution of Intelligent Sorting and System Logistics">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The integration of Artificial Intelligence (AI) has transformed plastic waste sorting from a manual, error-prone process into a high-precision industrial operation. Modern Material Recovery Facilities (MRFs) now employ AI-driven image recognition combined with hyperspectral imaging to distinguish plastics by polymer type, color, and even the presence of specific additives or hazardous dyes. These deep learning models, when trained on diverse spectral datasets, can achieve classification accuracies exceeding 90–98%. Beyond simple identification, AI acts as a "cross-cutting enabler" that optimizes the entire value chain through:
         </p>
@@ -38,7 +40,7 @@ const PageFive = () => {
        
       </Section>
 
-      <Section title="Biotechnological Advancements in Polymer Degradation">
+      <Section id= "p5i2" title="Biotechnological Advancements in Polymer Degradation">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Biological degradation is emerging as a sophisticated pretreatment and specialized recycling pathway, particularly for polymers with hydrolysable bonds like PET. The process typically begins with microbial colonization, where organisms form a biofilm on the plastic surface to establish intimate contact with the polymer matrix. These microbes secrete extracellular enzymes—such as hydrolases, cutinases, and lipases—to break down complex polymers into short-chain oligomers and monomers that the cells can then absorb and mineralize into CO2 and water.
         </p>
@@ -52,7 +54,7 @@ const PageFive = () => {
 
       </Section>
 
-      <Section title="Hybrid Thermochemical Valorization">
+      <Section id= "p5i3" title="Hybrid Thermochemical Valorization">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             For heterogeneous or highly contaminated plastic waste that cannot be mechanically recycled, thermochemical routes—such as pyrolysis, gasification, and hydrothermal liquefaction (HTL)—provide scalable recovery options. These processes use heat and chemical catalysts to depolymerize plastics into fuels, syngas (CO+H2 ), or industrial feedstocks.
         </p>
@@ -73,7 +75,7 @@ const PageFive = () => {
         <ImageBar images={["Recent/Page 4/p4i1.png", "Recent/Page 4/p4i2.png", "Recent/Page 4/p4i3.png"]} />
       </Section>
 
-      <Section title="Circular Economy Governance and Economic Feasibility ">
+      <Section id= "p5i4" title="Circular Economy Governance and Economic Feasibility ">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The transition to a circular plastics economy requires a fundamental decoupling of economic growth from virgin resource consumption. This is being operationalized through Extended Producer Responsibility (EPR) legislation, which shifts the financial and physical accountability for end-of-life management back to the manufacturers. Such policies incentivize "circular design"—reducing material complexity and eliminating hazardous additives at the start of a product's life.
         </p>

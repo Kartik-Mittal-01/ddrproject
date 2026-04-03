@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageSection from '../components/ImageSection'
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -19,7 +21,7 @@ const PageThree = () => {
         Plastic Waste Management Rules in India
       </h1>
 
-      <Section title="Overview">
+      <Section id= "p3i1" title="Overview">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic waste has emerged as one of the most pressing environmental challenges of modern times. With the increasing use of plastic in everyday life, its improper disposal has led to severe consequences for ecosystems, human health, and global sustainability. Recognizing this growing concern, India introduced the Plastic Waste Management Rules in 2016, along with subsequent amendments to strengthen their implementation.
         </p>
@@ -32,7 +34,7 @@ const PageThree = () => {
        
       </Section>
 
-      <Section title="Evolution of Environmental Rules in India">
+      <Section id= "p3i2" title="Evolution of Environmental Rules in India">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             India’s environmental regulatory framework has evolved significantly over the decades. The journey began in the 1960s when the Ministry of Agriculture introduced composting initiatives for solid waste. A major milestone came with the Environmental Protection Act of 1986, which laid the foundation for modern environmental governance.
         </p>
@@ -55,7 +57,7 @@ const PageThree = () => {
         
       </Section>
 
-      <Section title="Why Plastic Waste Management Rules Are Necessary">
+      <Section id= "p3i3" title="Why Plastic Waste Management Rules Are Necessary">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic is a highly versatile material—durable, lightweight, and resistant to degradation. While these properties make it useful, they also make plastic waste extremely problematic. Unlike organic materials, plastic does not decompose easily; instead, it breaks down into smaller particles called microplastics, which persist in the environment for hundreds to thousands of years.
         </p>
@@ -75,7 +77,7 @@ const PageThree = () => {
         <ImageSection src= 'week 3 and 4/page 3/3.jpg' />
       </Section>
 
-      <Section title="Plastic Waste Management Rules, 2016">
+      <Section id= "p3i4" title="Plastic Waste Management Rules, 2016">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The Plastic Waste Management Rules, 2016 replaced earlier regulations and introduced a more comprehensive and inclusive framework. Key highlights include:
         </p>
@@ -127,7 +129,7 @@ const PageThree = () => {
        
       </Section>
 
-      <Section title="Challenges in Implementation'">
+      <Section id= "p3i5" title="Challenges in Implementation'">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             While the rules are comprehensive and progressive, their implementation remains a major challenge. Some key issues include:
         </p>
@@ -144,7 +146,7 @@ const PageThree = () => {
         <ImageSection src= 'week 3 and 4/page 5/5.jpeg' />
       </Section>
 
-      <Section title="Understanding Plastic Waste Management Rules (Detailed Insights)">
+      <Section id= "p3i6" title="Understanding Plastic Waste Management Rules (Detailed Insights)">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The Plastic Waste Management Rules, 2016 represent a significant step forward in India’s environmental governance. These rules not only define how plastic waste should be handled but also establish responsibilities for various stakeholders including individuals, industries, local bodies, and government institutions.
         </p>       
@@ -158,7 +160,7 @@ const PageThree = () => {
 
 
 
-      <Section title="Key Improvements in the 2016 Rules">
+      <Section id= "p3i7" title="Key Improvements in the 2016 Rules">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             One of the most important updates introduced in 2016 was the increase in the minimum thickness of plastic carry bags from 40 microns to 50 microns. This change was designed to make plastic bags more durable and reusable, thereby reducing their tendency to become litter.
         </p>       
@@ -184,7 +186,7 @@ const PageThree = () => {
 
 
 
-      <Section title="Extended Producer Responsibility (EPR)">
+      <Section id= "p3i8" title="Extended Producer Responsibility (EPR)">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A major highlight of the 2016 rules is the introduction of Extended Producer Responsibility (EPR). This concept shifts part of the responsibility for waste management onto producers and brand owners.
         </p>       
@@ -208,7 +210,7 @@ const PageThree = () => {
       </Section>
 
 
-      <Section title="Responsibility of Waste Generators">
+      <Section id= "p3i9" title="Responsibility of Waste Generators">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Every individual, institution, and organization plays a role in generating plastic waste. The rules emphasize that waste generators must take responsibility for minimizing and managing their waste.
         </p>       
@@ -228,7 +230,7 @@ const PageThree = () => {
       </Section>
 
 
-      <Section title="Roles and Responsibilities of Stakeholders">
+      <Section id= "p3i10" title="Roles and Responsibilities of Stakeholders">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The rules clearly assign responsibilities across different levels:
         </p>       

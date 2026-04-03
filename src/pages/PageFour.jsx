@@ -2,9 +2,11 @@ import React from "react";
 import YouTube from 'react-youtube';
 import ImageSection from '../components/ImageSection'
 
-const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "40px" }}>
-    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>{title}</h2>
+const Section = ({ id, title, children }) => (
+  <div id={id} style={{ marginBottom: "40px" }}>
+    <h2 style={{ color: "#2c3e50", marginBottom: "10px" }}>
+      {title}
+    </h2>
     <div style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
       {children}
     </div>
@@ -19,7 +21,7 @@ const PageFour = () => {
         Role of Government (Politics) in Plastic Waste Management On a Global Level
       </h1>
 
-      <Section title="The Transition to Political Relevance">
+      <Section id= "p4i1" title="The Transition to Political Relevance">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             For decades, plastics enjoyed an unambiguously positive public image as versatile, sanitary, and superior materials. This led to a massive production boom, growing from 1.5 million tons in 1950 to 367 million tons by 2020.However, the political crisis began when it became clear that waste management infrastructure was lagging far behind production growth—a phenomenon known as "asymmetric development". Today, the political role is no longer just about collection; it is about managing the environmental "toxic legacy" of the billions of tons of plastic produced since the mid-20th century. Governments now intervene to prevent "leakage" into the environment, recognizing that once plastics enter waterways or become microplastics, recovery is virtually impossible
         </p>
@@ -28,7 +30,7 @@ const PageFour = () => {
        
       </Section>
 
-      <Section title="The Circular Economy and the Waste Hierarchy">
+      <Section id= "p4i2" title="The Circular Economy and the Waste Hierarchy">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A major political trend is the transition from a "linear" economy (make, use, dispose) to a "circular economy". The core political objective here is to decouple economic growth from the depletion of natural resources. To guide this, policymakers use the Waste Hierarchy, a legal framework enshrined in directives like the EU Waste Framework Directive (2008/98/EC). This hierarchy dictates a strict order of preference for waste management:
         </p>
@@ -45,7 +47,7 @@ const PageFour = () => {
         
       </Section>
 
-      <Section title=" Landfill Restrictions as a Political Lever">
+      <Section id= "p4i3" title=" Landfill Restrictions as a Political Lever">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             One of the most powerful tools a government can use to induce recycling is the restriction of landfills. There is a clear political correlation: as landfilling is restricted through bans or high taxes, recycling and energy recovery rates inevitably rise. Pioneers like Germany, Austria, and the Netherlands implemented landfill restrictions in the 1990s, effectively forcing the market to develop alternative recovery infrastructures. Because landfilling is often the cheapest option in the short term, politicians must intervene to shift the "cost benchmark" so that recycling becomes economically attractive.
         </p>
@@ -54,7 +56,7 @@ const PageFour = () => {
 
       </Section>
 
-      <Section title="Financing Waste: Extended Producer Responsibility (EPR)">
+      <Section id= "p4i4" title="Financing Waste: Extended Producer Responsibility (EPR)">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Politicians are increasingly moving away from taxpayer-funded waste management toward Extended Producer Responsibility (EPR). Under EPR, the financial and organizational burden of managing a product's end-of-life is shifted from the public sector to the private producers. This is an implementation of the "polluter-pays principle," where the "polluter" is redefined as the manufacturer who has the power to change a product’s design. By making producers pay for the collection and treatment of their packaging, governments create a direct incentive for Eco-design—designing products that are more durable, repairable, and recyclable.
         </p>
@@ -63,7 +65,7 @@ const PageFour = () => {
        
       </Section>
 
-      <Section title="Global Diplomacy and the 'National Sword'">
+      <Section id= "p4i5" title="Global Diplomacy and the 'National Sword'">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Plastic waste management is also a matter of international trade and geopolitical tension. Historically, high-income nations exported low-quality waste to lower-income countries, which often resulted in illegal littering and environmental damage. The political landscape changed forever in 2017 when China introduced the "National Sword" initiative, banning the import of several types of plastic waste. This political decision forced exporting nations (like the US and Germany) to urgently invest in domestic recycling infrastructure, as they could no longer rely on other countries to manage their waste.
         </p>
@@ -71,7 +73,7 @@ const PageFour = () => {
         <ImageSection src= 'politics/page 5/page 5.png' />
       </Section>
 
-      <Section title="Regional Legislative Deep Dives">
+      <Section id= "p4i6" title="Regional Legislative Deep Dives">
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Governments take different paths depending on their economic structure and history:
         </p>       
