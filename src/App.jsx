@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage';
@@ -8,14 +9,17 @@ import PageTwo from './pages/PageTwo';
 import PageThree from './pages/PageThree';
 import PageFour from './pages/PageFour';
 import PageFive from './pages/PageFive';
+import PageSix from './pages/PageSix';
+import PageSeven from './pages/PageSeven';
 import Footer from './components/Footer';
+import OffCanvas from './components/OffCanvas'
 
 function App() {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       
       <Navbar />
-
+      <OffCanvas/>
       <div style={{ flex: 1, paddingBottom: "60px" }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -24,6 +28,8 @@ function App() {
           <Route path="/page3" element={<PageThree />} />
           <Route path="/page4" element={<PageFour />} />
           <Route path="/page5" element={<PageFive />} />
+          <Route path="/page6" element={<PageSix />} />
+          <Route path="/page7" element={<PageSeven />} />
         </Routes>
       </div>
 
