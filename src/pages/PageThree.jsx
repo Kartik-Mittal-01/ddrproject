@@ -1,5 +1,6 @@
 import React from "react";
 import YouTube from 'react-youtube';
+import ImageSection from '../components/ImageSection'
 
 const Section = ({ title, children }) => (
   <div style={{ marginBottom: "40px" }}>
@@ -25,6 +26,8 @@ const PageThree = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             This section explores the evolution, importance, and key features of plastic waste management rules in India, along with their comparison to global practices.
         </p>
+
+        <ImageSection src= 'week 3 and 4/page 1/1.webp' />
         
        
       </Section>
@@ -47,6 +50,8 @@ const PageThree = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A turning point occurred after the 1994 Surat plague, which highlighted the consequences of poor waste management and triggered nationwide reforms. Finally, in 2016, a comprehensive revision of all major waste management rules—including plastic waste—was introduced, marking a significant step forward.
         </p>
+
+        <ImageSection src= 'week 3 and 4/page 2/2.png' />
         
       </Section>
 
@@ -66,6 +71,8 @@ const PageThree = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             For example, rivers like the Ganga contribute significantly to global plastic pollution, emphasizing the urgency of effective waste management policies.
         </p>
+
+        <ImageSection src= 'week 3 and 4/page 3/3.jpg' />
       </Section>
 
       <Section title="Plastic Waste Management Rules, 2016">
@@ -115,6 +122,8 @@ const PageThree = () => {
             Street vendors and shopkeepers must register with local authorities and comply with regulations for plastic usage.
         </p>
 
+        
+
        
       </Section>
 
@@ -131,6 +140,8 @@ const PageThree = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             For example, even when waste is segregated at the source, it is often mixed again during transportation due to inadequate systems.
         </p>
+
+        <ImageSection src= 'week 3 and 4/page 5/5.jpeg' />
       </Section>
 
       <Section title="Understanding Plastic Waste Management Rules (Detailed Insights)">
@@ -139,7 +150,9 @@ const PageThree = () => {
         </p>       
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The official rules were published in the Government Gazette on March 18, 2016, marking their formal implementation across the country. Building upon earlier regulations, these rules aim to create a structured and accountable system for managing plastic waste efficiently.
-        </p>       
+        </p>  
+
+        <ImageSection src= 'week 3 and 4/page 6/6.webp' />     
         
       </Section>
 
@@ -164,6 +177,8 @@ const PageThree = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A successful waste management system must optimize all three.
         </p>
+
+        <ImageSection src= 'week 3 and 4/page 7/7.jpg' />
         
       </Section>
 
@@ -187,6 +202,8 @@ const PageThree = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             This collaborative model has already been successfully implemented in countries like Canada and parts of Europe, especially for electronic waste.
         </p>
+
+        <ImageSection src= 'week 3 and 4/page 8/8.jpg' />
         
       </Section>
 
@@ -222,9 +239,6 @@ const PageThree = () => {
       </Section>
 
 
-
-
-     
 
     </div>
   );

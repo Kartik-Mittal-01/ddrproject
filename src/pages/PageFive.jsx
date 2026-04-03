@@ -1,5 +1,6 @@
 import React from "react";
 import YouTube from 'react-youtube';
+import ImageBar from "../components/ImageBar";
 
 const Section = ({ title, children }) => (
   <div style={{ marginBottom: "40px" }}>
@@ -22,6 +23,7 @@ const PageFive = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The integration of Artificial Intelligence (AI) has transformed plastic waste sorting from a manual, error-prone process into a high-precision industrial operation. Modern Material Recovery Facilities (MRFs) now employ AI-driven image recognition combined with hyperspectral imaging to distinguish plastics by polymer type, color, and even the presence of specific additives or hazardous dyes. These deep learning models, when trained on diverse spectral datasets, can achieve classification accuracies exceeding 90–98%. Beyond simple identification, AI acts as a "cross-cutting enabler" that optimizes the entire value chain through:
         </p>
+        <ImageBar images={["Recent/Page 1/image1.png", "Recent/Page 1/image2.png"]} />
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
           <b>Fuzzy Logic Modeling:</b> This specialized AI framework is highlighted for its robustness in managing "nonlinear" and data-scarce waste systems, allowing for better decision-making when waste streams are highly variable or unpredictable.
         </p>
@@ -31,6 +33,8 @@ const PageFive = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
           <b>Robotic High-Speed Sorting:</b>  AI-controlled robotic arms can perform waste separation at speeds and consistencies far beyond human capability, reducing labor intensity while improving the purity of the resulting recyclates.
         </p>
+
+        <ImageBar images={["Recent/PAge 2/image1kavya.jpg"]} />
        
       </Section>
 
@@ -43,6 +47,7 @@ const PageFive = () => {
             Recent breakthroughs have focused on "tuning" these biological systems. Researchers are using AI-assisted protein engineering (including tools like AlphaFold) to design mutations that enhance the thermostability and catalytic activity of enzymes. Engineered enzymatic systems have demonstrated 20–60% improvements in degradation performance compared to conventional baselines. However, a core "conceptual tension" remains: circular economy strategies prioritize polymer stability for reuse, while biodegradation focuses on the irreversible loss of material value. Consequently, biodegradation is best positioned as a complementary pathway for managing contaminated or niche plastic streams that fall outside the reach of mechanical recycling.
         </p>
 
+        <ImageBar images={["Recent/Page 3/p3i1.png", "Recent/Page 3/p3i2.png"]} />
         
 
       </Section>
@@ -64,6 +69,8 @@ const PageFive = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             While robust, these routes are energy-intensive and are categorized as "residual options" within the waste hierarchy, as they do not facilitate true closed-loop material recycling in the same way mechanical or chemical depolymerization does.
         </p>
+
+        <ImageBar images={["Recent/Page 4/p4i1.png", "Recent/Page 4/p4i2.png", "Recent/Page 4/p4i3.png"]} />
       </Section>
 
       <Section title="Circular Economy Governance and Economic Feasibility ">
@@ -82,6 +89,11 @@ const PageFive = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             <b>Closed-Loop Logistics</b>: Reusable packaging systems (e.g., Loop) are reducing dependence on single-use plastics through durable containers and "take-back" infrastructures.
         </p>
+
+
+        <ImageBar images={["Recent/Page 5/fig 1.png", "Recent/Page 5/fig 2.jpg", "Recent/Page 5/fig 3.png"]} />
+
+        
        
       </Section>
 
