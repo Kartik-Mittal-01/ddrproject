@@ -1,5 +1,6 @@
 import React from "react";
 import YouTube from 'react-youtube';
+import ImageSection from '../components/ImageSection'
 
 const Section = ({ title, children }) => (
   <div style={{ marginBottom: "40px" }}>
@@ -26,6 +27,8 @@ const PageOne = () => {
             What makes plastic so widely used is its flexibility, durability, lightweight nature, and ease of manufacturing. It can be designed in countless forms, textures, and colors, allowing it to be used in everything from packaging and household items to construction and electronics. Additionally, plastics are primarily organic compounds, though they often include small amounts of inorganic materials to enhance strength, stability, and functionality. 
         </p>
       </Section>
+
+      <ImageSection src= 'hardikimages/image1.png' />
 
       <Section title="Key Characteristics">
         <p>
