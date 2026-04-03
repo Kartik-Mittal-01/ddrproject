@@ -26,9 +26,9 @@ const PageOne = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             What makes plastic so widely used is its flexibility, durability, lightweight nature, and ease of manufacturing. It can be designed in countless forms, textures, and colors, allowing it to be used in everything from packaging and household items to construction and electronics. Additionally, plastics are primarily organic compounds, though they often include small amounts of inorganic materials to enhance strength, stability, and functionality. 
         </p>
+        <ImageSection src= 'hardikimages/image1.png' />
       </Section>
 
-      <ImageSection src= 'hardikimages/image1.png' />
 
       <Section title="Key Characteristics">
         <p>
@@ -59,9 +59,11 @@ const PageOne = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The journey of plastic began in 1862, when Alexander Parkes introduced a material called Parkesine at an international exhibition in London. This was a semi-synthetic plastic derived from cellulose nitrate, which could be heated, molded, and retained its shape upon cooling. It marked the beginning of a new era in material science. 
         </p>
+        <ImageSection src= 'hardikimages/IMAGE2.png' />
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Later, in 1907, Leo Baekeland developed the first fully synthetic plastic known as Bakelite. This material was revolutionary due to its properties such as heat resistance, electrical insulation, and durability, making it ideal for industrial and household applications.
         </p>
+        <ImageSection src= 'hardikimages/IMAGE 3.png' />
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Over time, plastics evolved into the wide variety of materials we use today, becoming essential in almost every industry. However, with this growth came challenges, especially in managing plastic waste effectively.
         </p>
@@ -74,6 +76,7 @@ const PageOne = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             However, polymers alone are not enough. To achieve the desired properties, manufacturers add various substances known as additives. These additives enhance strength, flexibility, color, durability, and resistance to heat or fire. The final product is a carefully engineered material tailored for specific uses.
         </p>
+        <ImageSection src= 'hardikimages/image 4.png' />
       </Section>
 
       <Section title="Key Additives in Plastic">
@@ -276,6 +279,8 @@ const PageOne = () => {
             <li>Elastomers are extremely elastic materials that can stretch significantly and return to their original form, similar to rubber bands. </li>
         </ul>
 
+        <ImageSection src= 'hardikimages/image 5.png' />
+
       </Section>
 
 
@@ -296,6 +301,8 @@ const PageOne = () => {
             <li>Thus, plastics play a positive role in improving transportation systems, even though their waste needs proper management.</li>
         </ul>
 
+        <ImageSection src= 'hardikimages/Image 19.png' />
+
 
         <h5>Industrial Applications of Plastics</h5>
         <ul>
@@ -303,11 +310,15 @@ const PageOne = () => {
             <li>Industries benefit from plastics because they are cost-effective, easy to shape, and require less maintenance compared to traditional materials like metals.</li>
         </ul>
 
+        <ImageSection src= 'hardikimages/Image 20.png' />
+
         <h5>Plastics in Medical Applications</h5>
         <ul>
             <li>The medical field is one of the most critical areas where plastics are indispensable. Plastics are used in syringes, IV tubes, blood bags, gloves, medical packaging, and diagnostic equipment.</li>
             <li>Their advantages include sterility, lightweight nature, flexibility, and cost-effectiveness, which make healthcare safer and more accessible. Without plastics, many modern medical treatments would become significantly more expensive or impractical. </li>
         </ul>
+
+        <ImageSection src= 'hardikimages/Image 21.png' />
 
 
         <h5>Plastics in Construction</h5>
@@ -316,11 +327,15 @@ const PageOne = () => {
             <li>Plastic materials are preferred because they are durable, resistant to water and corrosion, and easy to install, making them ideal for long-term infrastructure applications.</li>
         </ul>
 
+        <ImageSection src= 'hardikimages/Image 22.png' />
+
         <h5>Plastics in Electrical & Electronic Applications</h5>
         <ul>
             <li>Every electronic device you use—whether a mobile phone, laptop, television, or appliance—contains plastic components. Plastics are used for insulation, outer casings, connectors, and internal parts.  </li>
             <li>Their role as excellent electrical insulators and their lightweight nature have enabled the development of compact and portable electronic devices.</li>
         </ul>
+
+        <ImageSection src= 'hardikimages/Image 23.png' />
 
         <h5>Plastics in Consumer Goods & Packaging</h5>
         <ul>
@@ -328,10 +343,13 @@ const PageOne = () => {
             <li>Packaging, in particular, is one of the largest users of plastic because it provides protection, durability, and convenience for transporting goods. However, this also contributes significantly to plastic waste, especially single-use plastics.</li>
         </ul>
 
+        <ImageSection src= 'hardikimages/image 24.png' />
+
         <h5>Optical Media & Specialized Uses</h5>
         <ul>
             <li>Plastics are also used in optical media and communication devices, including CDs, USB drives, cables, and speakers. Their ability to be molded precisely makes them suitable for high-performance and specialized applications.  </li>
         </ul>
+        <ImageSection src= 'hardikimages/Image 25.png' />
 
       </Section>
 

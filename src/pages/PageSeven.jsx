@@ -1,5 +1,6 @@
 import React from "react";
 import YouTube from 'react-youtube';
+import ImageBar from "../components/ImageBar";
 
 const Section = ({ title, children }) => (
   <div style={{ marginBottom: "40px" }}>
@@ -35,6 +36,8 @@ const PageSeven = () => {
           <li><b>Recyclability –</b> Many plastics can be reprocessed multiple times</li>
           <li><b>Innovation Potential –</b> Development of biodegradable alternatives</li>
         </ul>
+
+        <ImageBar images={["week 888/page 2/img 1.png", "week 888/page 2/img 2.png", "week 888/page 2/img 3.png"]} />
        
       </Section>
 
@@ -74,6 +77,9 @@ const PageSeven = () => {
           Integrating efforts across industries, governments, and consumers to build a sustainable system.
         </p>
 
+
+        <ImageBar images={["week 888/page 3/img 5.png", "week 888/page 3/img 6.png", "week 888/page 3/img 7.png"]} />
+
       
       </Section>
 
@@ -92,6 +98,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             This approach aligns closely with sustainability principles but provides a more practical and action-oriented framework.
         </p>
+
+        <ImageBar images={["week 888/page 4/img 8.png"]} />
       </Section>
 
       <Section title="From Reactive to Proactive Systems">
@@ -104,6 +112,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             This shift requires collaboration across multiple disciplines, including engineering, design, business, and policy-making.
         </p>
+
+        <ImageBar images={["week 888/page 5/img 9.png", "week 888/page 5/img 10.png", "week 888/page 5/img 11.png"]} />
        
       </Section>
 
@@ -120,6 +130,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             By adopting circular practices, we can reduce waste, improve resource productivity, and create new economic opportunities.
         </p>
+
+        <ImageBar images={["week 888/page 6/img 12.png", "week 888/page 6/img 13.png", "week 888/page 6/img 14.png"]} />
       </Section>
 
       <Section title="Industry Example: Sustainable Innovation">
@@ -136,6 +148,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Such initiatives demonstrate how businesses can lead the transition toward a circular plastic economy.
         </p>
+
+        <ImageBar images={["week 888/page 7/img 16.png", "week 888/page 7/img 17.png", "week 888/page 7/img 18.png"]} />
       </Section>
 
      
@@ -153,6 +167,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             The goal is clear: a world where waste is eliminated, and materials continuously flow within a sustainable cycle.
         </p>
+
+        <ImageBar images={["week 888/page 8/img 19.png", "week 888/page 8/img 20.png", "week 888/page 8/img 21.png"]} />
       </Section>
 
       <Section title="Sustainable Packaging Strategies">
@@ -169,6 +185,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             A major challenge lies in multi-layer packaging, which is difficult to recycle due to the complexity of separating different materials. This often leads to disposal in landfills or incineration.
         </p>
+
+        <ImageBar images={["week 888/page 9/img 22.png", "week 888/page 9/img 23.png", "week 888/page 9/img 24.png"]} />
       </Section>
 
 
@@ -186,6 +204,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Even minor reductions in material usage can lead to significant environmental and economic benefits at scale.
         </p>
+
+        <ImageBar images={["week 888/page 10/img 25.png", "week 888/page 10/img 26.png", "week 888/page 10/img 27.png"]} />
       </Section>
 
 
@@ -207,6 +227,8 @@ const PageSeven = () => {
           <li>Regulatory restrictions (e.g., food-grade recycled plastics)</li>
           <li>Economic viability of collection systems</li>
         </ul>
+
+        <ImageBar images={["week 888/page 11/img 29.png", "week 888/page 11/img 30.png", "week 888/page 11/img 31.png"]} />
       </Section>
 
       <Section title=" Industry Collaboration & Global Initiatives">
@@ -223,6 +245,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Such collaboration ensures that innovations are practical, scalable, and effective.
         </p>
+
+        <ImageBar images={["week 888/page 12/img 32.png", "week 888/page 12/img 33.png", "week 888/page 12/img 34.png"]} />
         
       </Section>
 
@@ -241,6 +265,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Without proper infrastructure, even well-designed circular systems cannot function effectively.
         </p>
+
+        <ImageBar images={["week 888/page 13/img 35.png", "week 888/page 13/img 36.png"]} />
         
       </Section>
 
@@ -258,6 +284,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             This shifts responsibility from consumers alone to producers and the entire value chain, improving efficiency and accountability.
         </p>
+
+        <ImageBar images={["week 888/page 14/img 37.png", "week 888/page 14/img 38.png"]} />
         
       </Section>
 
@@ -268,6 +296,7 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             This reduction plays a crucial role in addressing climate change, as carbon dioxide (CO₂) emissions are a major contributor to global warming and extreme weather patterns.
         </p>
+        <ImageBar images={["week 888/page 15/img 39.png", "week 888/page 15/img 40.png", "week 888/page 15/img 41.png"]} />
         
       </Section>
 
@@ -285,6 +314,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             By improving recycling and reducing landfill disposal, we can significantly lower carbon emissions and environmental degradation
         </p>
+
+        <ImageBar images={["week 888/page 16/img 43.png", "week 888/page 16/img 44.png"]} />
         
       </Section>
 
@@ -304,6 +335,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             These benefits make circular economy both an environmental and economic opportunity.
         </p>
+
+        <ImageBar images={["week 888/page 17/img 45.png", "week 888/page 17/img 46.png", "week 888/page 17/img 47.png"]} />
         
       </Section>
 
@@ -322,6 +355,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             These initiatives demonstrate how policy, technology, and industry collaboration can drive large-scale change.
         </p>
+
+        <ImageBar images={["week 888/page 18/img 48.png", "week 888/page 18/img 49.png", "week 888/page 18/img 50.png"]} />
         
       </Section>
 
@@ -340,6 +375,8 @@ const PageSeven = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Such initiatives highlight the importance of industry-government collaboration in achieving sustainability goals.
         </p>
+
+        <ImageBar images={["week 888/page 20/img 51.png", "week 888/page 20/img 52.png"]} />
         
       </Section>
 

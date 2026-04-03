@@ -1,5 +1,6 @@
 import React from "react";
 import YouTube from 'react-youtube';
+import ImageBar from "../components/ImageBar";
 
 const Section = ({ title, children }) => (
   <div style={{ marginBottom: "40px" }}>
@@ -31,6 +32,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
            Traditionally, this process is described as “cradle to grave”, meaning the product ends in disposal, such as landfills or incineration. However, modern sustainability practices emphasize “cradle to cradle”, where waste materials are recycled and reintroduced into the production cycle, forming a continuous loop.
         </p>
+
+        <ImageBar images={["page 1/img 1.png", "page 1/img 2.png", "page 1/img 3.png"]} />
        
       </Section>
 
@@ -49,6 +52,8 @@ const PageSix = () => {
             Although this hierarchy prioritizes sustainability, in reality, a significant portion of waste still ends up in dump sites or landfills, especially in developing regions. This highlights the need for better infrastructure and policy implementation.
         </p>
 
+        <ImageBar images={["page 2/img 5.png", "page 2/img 6.png", "page 2/img 7.png"]} />
+
       </Section>
 
       <Section title=" Plastic Recycling Value Chain">
@@ -59,6 +64,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             However, not all plastic enters the recycling stream. Some materials are lost due to improper collection, contamination, or lack of recycling capability. Improving efficiency at each stage is critical to achieving a circular system.
         </p>
+
+        <ImageBar images={["page 3/img 8.png", "page 3/img 9.png", "page 3/img 10.png"]} />
       </Section>
 
       <Section title="Upstream vs Downstream Processes">
@@ -74,6 +81,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Balancing both upstream and downstream activities is essential for creating an efficient and sustainable plastic economy.
         </p>
+
+        <ImageBar images={["page 4/img 11.png", "page 4/img 12.png", "page 4/img 13.png"]} />
        
       </Section>
 
@@ -89,6 +98,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             In addition, technical feasibility plays a crucial role in determining whether a solution can be practically implemented. True sustainability lies in balancing all these factors rather than focusing on just one.
         </p>
+
+        <ImageBar images={["page 5/img 14.png", "page 5/img 15.png", "page 5/img 16.png"]} />
       </Section>
 
       <Section title="Strategies for Plastic Resource Recovery">
@@ -111,7 +122,9 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             <b>Moving Toward a Circular Future</b> <br />
             The transition from a linear economy (use and dispose) to a circular economy (reuse and recycle) is crucial for tackling plastic waste challenges. By integrating lifecycle thinking, efficient recycling systems, and sustainable policies, we can reduce environmental impact while conserving valuable resources.
-        </p>       
+        </p>  
+
+        <ImageBar images={["page 7/img 17.png", "page 7/img 18.png", "page 7/img 19.png"]} />     
         
 
       </Section>
@@ -125,6 +138,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             In traditional systems, materials are used once and discarded. However, circular systems aim to retain value within the economy by reusing, remanufacturing, and recycling materials continuously.
         </p>
+
+        <ImageBar images={["page 8/img 20.png", "page 8/img 21.png"]} />
       </Section>
 
       <Section title="Key Technical Metrics in Resource Recovery">
@@ -151,6 +166,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             These metrics help industries optimize processes and improve sustainability outcomes.
         </p>
+
+        <ImageBar images={["page 9/img 22.png", "page 9/img 23.png"]} />
        
       </Section>
       
@@ -168,6 +185,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Here, materials are kept in use for as long as possible, extracting maximum value before being regenerated into new products. This approach significantly reduces environmental impact and resource depletion.
         </p>
+
+        <ImageBar images={["page 10/img 24.png", "page 10/img 25.png", "page 10/img 26.png"]} />
       </Section>
 
 
@@ -184,6 +203,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Unlike linear systems, circular systems aim to eliminate waste leakage into the environment and maintain material value within the economy.
         </p>
+
+        <ImageBar images={["page 11/img 27.png", "page 11/img 28.png", "page 11/img 29.png"]} />
        
       </Section>
 
@@ -199,6 +220,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             Instead of buying products, consumers may lease or rent services. For example, companies can retain ownership of products like lighting systems or appliances while providing maintenance and upgrades.
         </p>
+
+        <ImageBar images={["page 12/img 30.png", "page 12/img 31.png"]} />
        
       </Section>
 
@@ -218,6 +241,7 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
             However, currently only a fraction of plastic waste is effectively recycled, highlighting the need for improved systems.
         </p>
+        <ImageBar images={["page 13/img 32.png", "page 13/img 33.png"]} />
        
       </Section>
 
@@ -234,6 +258,8 @@ const PageSix = () => {
         <p style={{ lineHeight: "1.7", color: "#444", textAlign: "justify" }}>
           These principles ensure long-term sustainability and economic efficiency.
         </p>
+
+        <ImageBar images={["page 14/img 34.png", "page 14/img 35.png", "page 14/img 36.png"]} />
        
       </Section>
 
