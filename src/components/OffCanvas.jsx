@@ -15,7 +15,7 @@ function Example() {
       <div
         style={{
             position: "fixed",
-            bottom: "20px",
+            bottom: "60px",
             right: "20px",
             zIndex: 1050
         }}
