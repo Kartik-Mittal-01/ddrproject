@@ -192,14 +192,20 @@ function Example() {
             {data.map((item, index) => (
               <div
                 key={index}
-                onMouseEnter={() => setActiveIndex(index)}
-                onMouseLeave={() => setActiveIndex(null)}
                 style={{ position: "relative" }}
               >
                 {/* Main Link */}
                 <Link
                   to={item.to}
-                  onClick={handleClose}
+                  onClick={(e) => {
+                    // toggle dropdown instead of navigating immediately
+                    if (activeIndex === index) {
+                      setActiveIndex(null);
+                    } else {
+                      e.preventDefault(); // stop navigation
+                      setActiveIndex(index);
+                    }
+                  }}
                   className="text-decoration-none"
                   style={{
                     color: "#ddd",
@@ -216,7 +222,7 @@ function Example() {
                     (e.target.style.background = "transparent")
                   }
                 >
-                  {item.text}
+                  {item.text} 
                 </Link>
 
                 {/* ✨ Subtopics */}
