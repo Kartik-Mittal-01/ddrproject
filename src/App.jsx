@@ -13,12 +13,14 @@ import PageSix from './pages/PageSix';
 import PageSeven from './pages/PageSeven';
 import Footer from './components/Footer';
 import OffCanvas from './components/OffCanvas'
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       
       <Navbar />
+      <ScrollToTop /> 
       <OffCanvas/>
       <div style={{ flex: 1, paddingBottom: "60px" }}>
         <Routes>
