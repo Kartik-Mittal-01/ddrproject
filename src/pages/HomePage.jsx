@@ -8,17 +8,9 @@ const HomePage = () => {
     <div className="container mt-4">
     <CollegeLogo/>
 
-      <h1 className="text-center text-danger fw-bold mb-4">
-        Project Advisor
-      </h1>
+     
 
-      <Hero />
-
-      <h1 className="text-center text-danger fw-bold mt-5 mb-4">
-        Team Members
-      </h1>
-
-      <Member />
+      
 
     </div>
   )
